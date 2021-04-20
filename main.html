@@ -202,6 +202,7 @@
                   <input id="aaf"type="number" name="mob no" placeholder="mobile number">
              <br />
              <br />
+
           <div id="button">  <button id="place-order" type="submit" name="placeorder">placeorder</button></div>
              </form>
         </section>
@@ -215,12 +216,20 @@
           </div>
         </section>
         <section class="menu">
-          <ul>
-            <li> <div class="imgmenu">MENU</div></li>
-            <li> <div id="supbutton" class="imgmenu">SUPPORT</div></li>
-            <li> <div class="imgmenu">PRODUCT</div> </li>
-            <li> <div class="imgmenu">ABOUT</div> </li>
+          <ul class="parent">
+            <li id="menu11"> MENU
+                 <ul class="child">
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Product&nbsp;Info</a></li>
+                    <li><a href="#">Pricing&nbsp;Details</a></li>
+                    <li><a href="#">Order&nbsp;Product</a></li>
+                 </ul>
+            </li>
+            <li id="supbutton">SUPPORT</li>
+            <li>PRODUCT</li>
+            <li>ABOUT</li>
           </ul>
+
         </section>
     <footer id="footer">
       <br />
@@ -230,6 +239,7 @@
       <br />
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="main.js"></script>
     </body>
 </html>
