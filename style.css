@@ -574,13 +574,14 @@ a{
   position: fixed;
 }
 .menu ul.parent{
+  color: #450d0d;
   display:inline-flex;
   width: 400px;
   height: 40px;
   margin-top: 0px;
   padding: 0px;
   list-style: none;
-  background: rgba(200, 255, 200, 0.9);
+  background: rgba(215 ,226 ,145, 0.8);
   border: 2px groove #000;
   border-radius: 20px;
   border-top-right-radius: 0px;
@@ -599,7 +600,7 @@ ul.child{
   list-style: none;
   padding: 5px;
   right: 250px;
-  background: #c8ffc8db;
+  background:rgba(215,226,145,0.8);
   box-shadow: 2px 2px 3px #0000008c;
   border: 1px solid #000;
   display: none;
@@ -607,13 +608,13 @@ ul.child{
 
 .child a{
   text-decoration: none;
-  color: rgba(100, 20, 5, 0.9);
+    color: #450d0d;
   margin: 3px;
 }
 .child li:hover{
   cursor: pointer;
   border: 1px solid #000;
-  background: #71ff71;
+  background: rgba(234 ,241 ,188 ,0.8);
   padding: 2px;
 }
 
@@ -623,4 +624,25 @@ ul.parent>li{
 }
 #menu11{
   border-bottom-left-radius: 17px;
+}
+#context{
+ position: absolute;
+ list-style: none;
+ margin: 0px;
+ background: #fff8f3;
+ padding: 5px;
+ width: 122px;
+ box-shadow: 2px 2px 4px #000;
+ display: none;
+}
+#context a {
+  text-decoration: none;
+  color: #000000;
+}
+#context>li:hover{
+  background: #9b9b9b;
+}
+
+#context .hidden{
+  display: none;
 }
