@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #facea1!important;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.Sign-in{
+  margin: 370px;
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+.btn.btn-primary{
+  right: 20px;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(246 246 246 / 90%)!important;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(255 255 255 / 90%)!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255 255 255 / 66%)!important;
+}
+
+.bg-light {
+  background-color: #a55217!important;
+}
+
+.btn-outline-success {
+  color: #ffffff!important;
+  border-color: #adb5bd!important;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
